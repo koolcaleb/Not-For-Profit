@@ -1,28 +1,38 @@
 // Countdown Timer
 function countdown() {
-  const startTime = "2023-04-06T11:30:48+00:00";
-  const clockdiv = document.getElementById("countdown");
-  clockdiv.setAttribute("data-date", startTime);
-  const countDownTime = clockdiv.getAttribute("data-date") * 1000;
-  console.log(countDownTime);
+  const startTime = new Date('2023-04-06T11:30:48Z').getTime() / 1000;
+  const clockdiv = document.getElementById('countdown');
 
-  const countdownfunction = setInterval(function () {
-    const now = new Date().getTime();
+  console.log(clockdiv);
+
+  clockdiv.setAttribute('data-date', startTime);
+  const countDownTime = clockdiv.getAttribute('data-date');
+
+  const countdownfunction = setInterval(() => {
+    console.log(`countDownTime: ${countDownTime}`);
+    const now = new Date().getTime() / 1000;
+    console.log(`now: ${now}`);
     const diff = countDownTime - now;
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    console.log(`diff: ${diff}`);
+    const days = Math.floor(diff / (60 * 60 * 24));
+    const hours = Math.floor((diff % (60 * 60 * 24)) / (60 * 60));
+    const minutes = Math.floor((diff % (60 * 60)) / 60);
+    const seconds = Math.floor(diff % 60);
+
+    console.log(`days: ${days}`);
+    console.log(`hours: ${hours}`);
+    console.log(`minutes: ${minutes}`);
+    console.log(`seconds: ${seconds}`);
 
     if (diff < 0) {
-      clockdiv.style.display = "none";
+      clockdiv.style.display = 'none';
       clearInterval(countdownfunction);
     } else {
-      clockdiv.style.display = "block";
-      clockdiv.querySelector(".days").innerHTML = days;
-      clockdiv.querySelector(".hours").innerHTML = hours;
-      clockdiv.querySelector(".minutes").innerHTML = minutes;
-      clockdiv.querySelector(".seconds").innerHTML = seconds;
+      clockdiv.style.display = 'block';
+      clockdiv.querySelector('.days').innerHTML = days;
+      clockdiv.querySelector('.hours').innerHTML = hours;
+      clockdiv.querySelector('.minutes').innerHTML = minutes;
+      clockdiv.querySelector('.seconds').innerHTML = seconds;
     }
   }, 1000);
 }
