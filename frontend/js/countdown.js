@@ -1,8 +1,10 @@
-//Countdown Timer
+// Countdown Timer
 function countdown() {
+  const startTime = "2023-04-06T11:30:48+00:00";
   const clockdiv = document.getElementById("countdown");
-  const countDownTime = clockdiv.getAttribute("data-date") * 1000
-  console.log(countDownTime)
+  clockdiv.setAttribute("data-date", startTime);
+  const countDownTime = clockdiv.getAttribute("data-date") * 1000;
+  console.log(countDownTime);
 
   const countdownfunction = setInterval(function () {
     const now = new Date().getTime();
@@ -24,3 +26,5 @@ function countdown() {
     }
   }, 1000);
 }
+
+countdown();
