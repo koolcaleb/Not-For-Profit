@@ -21,4 +21,3 @@ const button_presale_already_minted = "Join The Community...";
 const button_public_mint = "Mint";
 const mint_failed = "Minting failed. 😢 Please try again.";
 
-
