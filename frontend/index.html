@@ -139,23 +139,6 @@
             </span>
             <button id="setQtyMax" class="btn">SET MAX</button>
           </div>
-
-
-          <script>
-            // Update the total supply on page load
-            updateTotalSupply();
-          
-            async function updateTotalSupply() {
-              // Retrieve the total supply from the smart contract
-              const totalSupply = await contract.methods.totalSupply().call();
-          
-              // Display the total supply on the webpage
-              const totalSupplyElement = document.getElementById("totalSupply");
-              totalSupplyElement.textContent = `${totalSupply} / 100`;
-            }
-          </script>
-
-
           
           <div class="total-price-container">
             <h3>Total</h3>
