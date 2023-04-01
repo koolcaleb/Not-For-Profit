@@ -8,12 +8,12 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #EDC7B7;
-  --bg-color-transparent: #00aa0e80;
-  --font-color: #123C69;
-  --btn-bg-color: #EEE2DC;
-  --accent-color: #BAB2B5;
-  --header-shadow: var(--accent-color) 0px 0px 5px;
+  --bg-color: #EEE2DC;
+  --bg-color-transparent: #AC3B61;
+  --font-color: #BAB2B5;
+  --btn-bg-color: #EDC7B7;
+  --accent-color: #123C69;
+  --header-shadow: var(--accent-color) 0px 0px 6px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
 
@@ -79,7 +79,7 @@ header .container {
 
 .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
+  font-style: normal;
   margin: 2rem 0;
   font-size: 3.5rem;
 }
