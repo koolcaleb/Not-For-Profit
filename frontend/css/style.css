@@ -435,10 +435,10 @@ section {
     font-size: 12px;
   }
   header .container {
-    flex-direction: column;
+    flex-direction: row;
   }
   .menu {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
   }
   .menu a {
