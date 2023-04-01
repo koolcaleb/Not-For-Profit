@@ -391,7 +391,7 @@ section {
 
 @media screen and (max-width: 450px) {
   .menu {
-    gap: 0.5rem;
+    gap: 0.8rem;
   }
   .wallet-btn {
     margin-left: 0;
@@ -403,6 +403,8 @@ section {
     border-radius: 5px;
     padding: 1rem;
     margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
   }
   .countdown ul {
     display: grid;
