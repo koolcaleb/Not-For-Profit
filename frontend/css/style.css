@@ -389,7 +389,7 @@ section {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .menu {
     gap: 0.5rem;
   }
