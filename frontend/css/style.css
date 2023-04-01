@@ -391,17 +391,17 @@ section {
 
 @media screen and (max-width: 400px) {
   .menu {
-    gap: .8rem;
+    gap: 0.5rem;
   }
   .wallet-btn {
     margin-left: 0;
-    padding: 0.5rem 1rem;
-    max-width: 8rem;
+    padding: 0.3rem 0.5rem;
+    max-width: 6rem;
   }
   .not-connected {
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
-    padding: 2rem;
+    padding: 1rem;
     margin: 0 auto;
   }
   .countdown ul {
@@ -412,29 +412,30 @@ section {
     width: 100%;
   }
   .countdown .clock-item .count-number {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .countdown .clock-item .count-text {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .countdown h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 1rem 0;
   }
   .countdown h2 {
-    padding-top: 0.5rem;
+    padding-top: 0.3rem;
   }
   .countdown p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .card {
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .mint-qty .btn {
-    padding: 1rem;
-    font-size: 13px;
+    padding: 0.8rem;
+    font-size: 12px;
   }
 }
+
 
 /* UTILITIES */
 
