@@ -406,14 +406,7 @@ section {
     max-width: 80%;
     text-align: center;
     font-size: .8rem;
-  }
-  .not-connected h1 {
-    font-size: 3rem;
-  }
-  .not-connected h2 {
-    font-size: 2rem;
-  }
-    
+  }  
   .countdown ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
