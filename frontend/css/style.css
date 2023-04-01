@@ -405,6 +405,7 @@ section {
     margin: 0 auto;
     max-width: 80%;
     text-align: center;
+    font-size: 80%
   }
   .countdown ul {
     display: grid;
