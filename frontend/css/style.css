@@ -396,7 +396,7 @@ section {
   .wallet-btn {
     margin-left: 0;
     padding: 0.5rem 1rem;
-    max-width: 6rem;
+    max-width: 8rem;
   }
   .not-connected {
     background-color: var(--bg-color-transparent);
