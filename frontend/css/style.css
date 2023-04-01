@@ -469,9 +469,11 @@ section {
     font-size: 0.8rem;
   }
   
-  .countdown-card h1 {
-    font-size: 2rem;
+  .countdown h1 {
+    font-size: 2.5rem !important;
+    margin: 1rem 0;
   }
+  
   
   .countdown-card h2 {
     font-size: 1rem;
