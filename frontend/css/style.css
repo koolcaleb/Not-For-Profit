@@ -408,18 +408,18 @@ section {
     font-size: .8rem;
   }  
   .not-connected h1 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: .2rem;
+    margin-bottom: .1rem;
   }
   
   .not-connected h2 {
-    margin-top: 1rem;
+    margin-top: .1rem;
     margin-bottom: 0.25rem;
   }
   
   .not-connected p {
     margin-top: 0.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: .1rem;
   }
   
   .countdown ul {
