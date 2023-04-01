@@ -465,6 +465,23 @@ section {
   .container {
     padding: 1rem;
   }
+  .countdown-card {
+    font-size: 0.8rem;
+  }
+  
+  .countdown-card h1 {
+    font-size: 2rem;
+  }
+  
+  .countdown-card h2 {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+  
+  .countdown-card p {
+    font-size: 0.8rem;
+  }
+  
 }
 
 
