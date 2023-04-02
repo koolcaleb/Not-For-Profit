@@ -1,6 +1,6 @@
 // Countdown Timer
 function countdown() {
-  const startTime = new Date('2023-04-06T11:30:48Z').getTime() / 1000;
+  const startTime = new Date('2023-04-01T11:30:48Z').getTime() / 1000;
   const clockdiv = document.getElementById('countdown');
 
   console.log(clockdiv);
