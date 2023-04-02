@@ -31,6 +31,7 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  overflow-y: scroll; /* Add overflow-y property */
 }
 
 .container {
@@ -433,15 +434,7 @@ section {
     text-align: center;
     margin-top: 2rem;
   }
-  body {
-    background-color: var(--bg-color);
-    display: flex;
-    flex-flow: column;
-    height: 100vh;
-    color: var(--font-color);
-    font-family: var(--font-primary);
-    overflow-y: scroll; /* Add overflow-y property */
-  }
+ 
   .countdown ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
