@@ -9,10 +9,11 @@
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #EEE2DC;
-  --bg-color-transparent: #EDC7B7;
+  --bg-color-transparent: #123C69;
   --font-color: #BAB2B5;
   --btn-bg-color: #EDC7B7;
   --accent-color: #123C69;
+  --accent-color-transparent: #324f6e;
   --header-shadow: var(--accent-color) 0px 0px 6px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -400,6 +401,7 @@ section {
   }
   .not-connected {
     background-color: var(--bg-color-transparent);
+    accent-color: var(--accent-color-transparent);
     border-radius: 5px;
     padding: 1rem;
     margin: 0 auto;
