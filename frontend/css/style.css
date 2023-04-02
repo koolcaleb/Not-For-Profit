@@ -402,7 +402,7 @@ section {
   }
   .not-connected {
     background-color: var(--bg-color-transparent);
-    accent-color: var(--accent-color-transparent);
+    color: var(--accent-color-transparent); /* set the text color to the accent color */
     border-radius: 5px;
     padding: 1rem;
     margin: 0 auto;
