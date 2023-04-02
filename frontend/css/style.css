@@ -173,6 +173,7 @@ section {
 
 .countdown {
   display: flex;
+  height: 70vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
