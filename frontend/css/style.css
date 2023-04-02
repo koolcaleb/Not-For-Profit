@@ -428,10 +428,7 @@ section {
     margin-top: 0.25rem;
     margin-bottom: .1rem;
   }
-  .splide {
-    top: 90px !important;
-    left: 50%;
-    transform: translateX(-50%);
+  
   }
   .countdown ul {
     display: grid;
