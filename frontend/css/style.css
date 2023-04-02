@@ -423,7 +423,7 @@ section {
     margin-bottom: .1rem;
   }
   .splide {
-    top: 200px;
+    top: 200px !important;
     left: 50%;
     transform: translateX(-50%);
   }
