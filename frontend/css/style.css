@@ -424,7 +424,7 @@ section {
     margin-bottom: .1rem;
   }
   .mint-container {
-    width: 50%;
+    width: 150%;
     display: flex;
     flex-direction: column;
     justify-content: center;
