@@ -31,7 +31,6 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
-  overflow-y: scroll; /* Add overflow-y property */
 }
 
 .container {
@@ -429,10 +428,7 @@ section {
     left: 50%;
     transform: translateX(-50%);
   }
-  #countdown {
-    display: none;
-    text-align: center;
-    margin-top: 2rem;
+ 
   }
  
   .countdown ul {
@@ -441,6 +437,10 @@ section {
   }
   .countdown .clock-item {
     width: 100%;
+  }
+  .countdown {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .countdown .clock-item .count-number {
     font-size: 1.2rem;
