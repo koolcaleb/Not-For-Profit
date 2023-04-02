@@ -413,7 +413,6 @@ section {
     max-width: 80%;
     text-align: center;
     font-size: .8rem;
-    overflow: hidden;
   }  
   .not-connected h1 {
     margin-top: .2rem;
