@@ -412,7 +412,6 @@ section {
   }
   .not-connected {
     background-color: var(--bg-color-transparent);
-    overflow-x: hidden;
     border-radius: 5px;
     padding: 2rem;
     margin-top: 2rem;
