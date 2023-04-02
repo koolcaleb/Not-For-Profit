@@ -423,12 +423,7 @@ section {
     margin-top: 0.25rem;
     margin-bottom: .1rem;
   }
-  .mint-container {
-    width: 150%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  
   .splide {
     top: 90px !important;
     left: 50%;
