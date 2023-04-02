@@ -428,7 +428,10 @@ section {
     flex-direction: column;
     max-width: 960px;
     height: 80%;
-    margin: auto;
+    margin-top: 30px; /* set top margin to 10px */
+    margin-bottom: 30px; /* set bottom margin to 10px */
+    margin-left: auto; /* set left margin to auto */
+    margin-right: auto; /* set right margin to auto */
     padding: 1rem 2rem;
     justify-content: center;
     overflow: hidden;
