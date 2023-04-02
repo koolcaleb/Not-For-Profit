@@ -428,7 +428,10 @@ section {
     left: 50%;
     transform: translateX(-50%);
   }
- 
+  #countdown {
+    display: none;
+    text-align: center;
+    margin-top: 2rem;
   }
  
   .countdown ul {
@@ -438,7 +441,6 @@ section {
   .countdown .clock-item {
     width: 100%;
   }
-  
   .countdown .clock-item .count-number {
     font-size: 1.2rem;
   }
