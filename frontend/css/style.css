@@ -438,10 +438,7 @@ section {
   .countdown .clock-item {
     width: 100%;
   }
-  .countdown {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
+  
   .countdown .clock-item .count-number {
     font-size: 1.2rem;
   }
