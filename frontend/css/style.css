@@ -422,7 +422,10 @@ section {
     margin-top: 0.25rem;
     margin-bottom: .1rem;
   }
-  
+  .splide {
+    top: 50px;
+    left: 0;
+  }
   .countdown ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
