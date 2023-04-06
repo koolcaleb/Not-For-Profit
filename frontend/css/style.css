@@ -363,6 +363,7 @@ section {
   .not-connected {
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
+    height: 1000%;
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -416,6 +417,7 @@ section {
   .not-connected {
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
+    height: 1000%;
     padding: 2rem;
     margin-top: auto;
     margin-bottom: auto;
